@@ -28,21 +28,16 @@ A real-time video chat application built using WebRTC, Node.js, and Socket.io. T
 1. Clone the repository:
    ```bash
    git clone https://github.com/Saurabhtcet/video-chat-app.git
-Navigate to the project directory:
-
+2.Navigate to the project directory
+```bash
 cd video-chat-app
-
-Install the dependencies:
-
+3.Install the dependencies:
+```bash
 npm install
-
-Start the servee
+Start the server:
+```bash
 npm start
-
 Open your web browser and navigate to:
 http://localhost:3000
-Share the room URL with your friends to start chatting!
-How It Works
-Signaling: The application uses Socket.io to handle the signaling process required for establishing WebRTC connections between peers.
-Peer Connections: When two users connect, a peer connection is created using WebRTC, allowing audio and video streams to be shared in real-time.
-User Interface: A simple web interface displays the video streams and allows users to connect easily.
+
+
